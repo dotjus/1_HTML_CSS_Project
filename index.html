@@ -4,23 +4,126 @@
     <head>
         <meta charset="UTF-8"> <! -- browser to encode text using UTF-8, the standard -->
         <title>HTML_CSS_Project</title>
-
+        <link href="src/styles.css" rel="stylesheet"/>
     </head>
 
-    <body>
-        <h1>Heading ONE</h1>
-
+    <body class="background_image">
+    <div class="main_menu">
+        <header>
+            <h1>RPG Character Sheet</h1>
+            <hr>
+        </header>
         <main>
-            <h2>Heading TWO</h2>
-            <p>Just some paragraph text saying paragraph things.</p>
-            <p>Adding additional text to test GitHub desktop commits.</p>
+            <h2>Errektus the Bold</h2>
+            <div class="player_bio_section">
+            <fieldset>
+                <legend>Player Portrait</legend>
+                <img src="src/images/Errektus.jpg" alt="Character Portrait" class="player_portrait"/>
+            </fieldset>
 
+            <div class="give_me_sum_padding"></div>
+
+            <fieldset>
+                <legend>Background Info</legend>
+                <p class="player_background_info"> Errektus is a Chadian, who are descendants of the Atlanteans and ancestors of the modern Gaels. Errektus is himself a descendant of Kuul-Whip, the Giga-Lord of Atlantis. </p>
+                <p class="player_background_info"> Errektus was birthed on a raging battlefield and is the son of a jacked blacksmith. Characterized as chivalric due to his penchant to save <s>bitches</s> damsels. </p> 
+                <p class="player_background_info"> He is honorable and has a sense of enduring loyalty. Unlike Kuul-Whip, Errektus has a humorous nature, rejecting the brooding and frivolous philosophizing of his ancestor.</p>
+            </fieldset>
+            </div>
+
+            <div class="give_me_sum_padding"></div>
+            <div class="give_me_sum_padding"></div>
+
+            <div class="player_bio_section">
+                <fieldset>
+                    <legend>Basics</legend>
+                    <table>
+                        <tr>
+                          <th>Stamina:</th>
+                          <th><input type="text"></th>
+                        </tr>
+                        <tr>
+                          <th>Health:</th>
+                          <th><input type="text"></th>
+                        </tr>
+                        <tr>
+                          <th>Armor:</th>
+                          <th><input type="text"></th>
+                        </tr>
+                          <tr>
+                          <th>Size:</th>
+                          <th><input type="text"></th>
+                        </tr>
+                        <tr>
+                          <th>Weight:</th>
+                          <th><input type="text"></th>
+                        </tr>
+                        <tr>
+                          <th>Speed:</th>
+                          <th><input type="text"></th>
+                        </tr>
+                        <tr>
+                          <th>Forced Move:</th>
+                          <th><input type="text"></th>
+                        </tr>
+                      </table>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Characteristics</legend>
+                        <table>
+                            <tr>
+                              <th></th>
+                              <th>Score</th>
+                              <th>Deffence</th>
+                            </tr>
+                            <div class="give_me_sum_padding"></div>
+                            <tr>
+                              <th>Might</th>
+                              <th><input type="text"></th>
+                              <th><input type="text"></th>
+                            </tr>
+                            <tr>
+                              <th>Agility</th>
+                              <th><input type="text"></th>
+                              <th><input type="text"></th>
+                            </tr>
+                              <tr>
+                              <th>Endurance</th>
+                              <th><input type="text"></th>
+                              <th><input type="text"></th>
+                            </tr>
+                            <tr>
+                              <th>Reason</th>
+                              <th><input type="text"></th>
+                              <th><input type="text"></th>
+                            </tr>
+                            <tr>
+                              <th>Intuition</th>
+                              <th><input type="text"></th>
+                              <th><input type="text"></th>
+                            </tr>
+                            <tr>
+                              <th>Presence</th>
+                              <th><input type="text"></th>
+                              <th><input type="text"></th>
+                            </tr>
+                          </table>
+                </fieldset>
+                </div>
+            
+            <p class="final_paragraph">Things to come; Basic Attack, Triggered Actions, Signature Powers, Inventory.</p>
+
+        <hr>
         </main>
 
     </body>
 
     <footer>
-        <p>Zee <strong><em>Foot</em></strong>~errrr</p>
+        <div class="give_me_sum_padding"></div>
+        <p>le <strong><em>Foot</em></strong>~errrr</p>
     </footer>
+
+    </div>
 
 </html>
